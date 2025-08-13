@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Retest Suite">
+	  
+   <test name="Retest">
+   	<classes>
+   					
+			 <class name="stc.esport.testcases.crm.UpdateContractManagementTests">
+				<methods>
+				
+					<include name="testArchivePendingUpdateRequest" />
+					<include name="testArchiveTeamWithUpdatedContractSFE" />
+					
+				</methods>
+			</class>
+			
+		</classes>
+	</test>  
+
+	 
+	
+		
+
+	
+	
+	
+
+</suite>

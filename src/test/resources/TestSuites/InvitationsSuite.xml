@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Invitations Suite">
+     <test name="Invitations">
+		<classes>
+			 <class name="stc.esport.testcases.invitations.InvitationsTests">
+				<methods>
+				<include name="testSubmitActionByTeamMember" />
+			  <include name="testSubmitActionByNonRegMember" />
+				<include name="testSubmitActionByClubOwner" />
+				<include name="testCheckAutoFilledFields" />
+				<include name="testCancelInvitationByClubOwner" />
+				<include name="testViewProfile" />
+			</methods>
+			</class>
+			 <class name="stc.esport.testcases.invitations.ContentCreatorInvitationsTests">
+				<methods>
+				<include name="testContentCreatorInvitation" />
+				<include name="testNonRegContentCreatorInvitation" />
+				<include name="testEditApprovedInvitation" />
+				<include name="testRemoveApprovedInvitation" />
+				<include name="testCancelPendingInvitation" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	
+</suite>

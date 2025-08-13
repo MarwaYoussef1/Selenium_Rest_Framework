@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Prepare Contracts Suite">
+         <test name="Prepare Contracts Suite">
+       <classes>
+       
+          <class name="stc.esport.testcases.APITests">
+               <methods>
+                     <include name ="testApiApproveMemberContractByAdmin"/>
+                  </methods>
+            </class>
+            
+          </classes>
+        </test>
+      </suite>

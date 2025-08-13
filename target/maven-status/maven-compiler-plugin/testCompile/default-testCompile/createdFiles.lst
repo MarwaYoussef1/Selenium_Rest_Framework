@@ -1,0 +1,16 @@
+stc\esport\testcases\crm\ContractManagementTests.class
+stc\esport\testcases\authorization\MemberAuthorizationTest.class
+stc\esport\testcases\crm\UpdateContractManagementTests.class
+stc\esport\testcases\IncidentTest.class
+stc\esport\testcases\LoginTest.class
+stc\esport\testcases\authorization\TeamsAuthroizationTests.class
+stc\esport\testcases\UsersTest.class
+stc\esport\testcases\invitations\InvitationsTests.class
+stc\esport\testcases\crm\CRMTests.class
+stc\esport\testcases\authorization\clubsAuthorizationTest.class
+stc\esport\testcases\MemberManagementTest.class
+stc\esport\testdata\TestData.class
+stc\esport\testcases\APITests.class
+stc\esport\testcases\SignUpTest.class
+stc\esport\testcases\invitations\ContentCreatorInvitationsTests.class
+stc\esport\testcases\TeamsTest.class

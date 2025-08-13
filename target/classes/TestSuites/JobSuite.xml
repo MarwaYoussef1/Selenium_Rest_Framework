@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Job Suite">
+         <test name="Job Suite">
+       <classes>
+       
+           <class name="stc.esport.testcases.LoginTest">
+               <methods>
+                     <include name ="testLogin"/>
+                  </methods>
+            </class> 
+            
+         <class name="stc.esport.testcases.SignUpTest">
+				<methods>
+					<include name="testClubOwnerSignUP" />
+					
+				</methods>
+			</class>
+          </classes>
+        </test>
+       
+      </suite>

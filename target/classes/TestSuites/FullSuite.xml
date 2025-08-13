@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Full Suite">
+	<test name="SignUpCRM">
+		<classes>
+
+			<!-- <class name="stc.esport.testcases.SignUpTest">
+				<methods>
+					<include name="testClubOwnerSignUP" />
+					 <include name="testOtherRolesSignUP" />
+				</methods>
+			</class> -->
+			
+		 <class name="stc.esport.testcases.crm.CRMTests">
+				<methods>
+
+
+					<!--  <include name="testCRMRequireAnAction" />-->
+				    <include name="testCRMApprove" />
+					<include name="testCRMReject" />
+					<include name="testCRMRejectBlock" />
+					<include name="testCRMDDetails" />
+					<include name="testCRMSearch" />
+
+				</methods>
+			</class> 
+			
+
+
+		</classes>
+	</test>
+	</suite>

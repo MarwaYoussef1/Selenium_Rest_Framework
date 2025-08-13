@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Teams Suite">
+	   <test name="Add teams With members">
+		<classes>
+			<class name="stc.esport.testcases.TeamsTest">
+				<methods>
+					<include name="testAddTeam" />
+					<include name="testAddTeamWithRegMembers" />
+					<include name="testAddTeamWithNonRegMembers" />
+					<include name="testCancelAddTeamMember" />
+				    <!--   <include name="testRoleWhenToggleDisabled" />-->
+					<include name="testRoleNotMatchedError" />
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	  <test name="Edit teams With members">
+		<classes>
+			<class name="stc.esport.testcases.TeamsTest">
+				<methods>
+
+					<include name="testEditTeam" />
+					<include name="testEditTeamByAddingRegMember" />
+					<include name="testTeamMembeStatusInEdit" />
+					<include name="testRemovingPendingAcceptedMembers" />
+					<include name="testRemoveTeamMember" />
+					<include name="testAddMemberValidations" />
+					<include name="testClubOwnerNotMember" />
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	 <test name="Leave Team">
+		<classes>
+			<class name="stc.esport.testcases.TeamsTest">
+				<methods>
+
+					<include name="testTeamCreatorLeaveTeam" />
+					<include name="testMemberLeaveTeam" />
+					<include name="testCancelLeaveTeam" />
+					<include name="testClubOwnerCannotLeaveTeam" />
+					<include name="testAdminCannotLeaveTeam" />
+
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	 <test name="Archive Team">
+		<classes>
+			<class name="stc.esport.testcases.TeamsTest">
+				<methods>
+
+					<include name="testArchiveTeamClan" />
+					<include name="testArchiveTeamWithCallOfMember" />
+					<include name="testUnarchiveTeamClan" />
+					<include name="testUnarchiveButReachedTheLimit" />
+					
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CRM Suite">
+	  <test name="CRM Tests">
+		<classes>
+		 <class name="stc.esport.testcases.crm.CRMTests">
+				<methods>
+					
+					<include name="testCRMRequireAnAction" />
+				 	<include name="testCRMApprove" />
+			        <include name="testCRMReject" />
+					<include name="testCRMRejectBlock" />
+			        <include name="testCRMDDetails" />
+					<include name="testCRMSearch" />
+				</methods>
+			</class>
+			 <class name="stc.esport.testcases.crm.ContractManagementTests">
+				<methods>
+				    <include name="testUploadContract" />
+					<include name="testContractRequestApprove" />
+			        <include name="testContractRequestReject" />
+					<include name="testContractRequestRequireAnAction" />
+					<include name="testCancelContractInvitation" />
+				
+				</methods>
+			</class>
+			
+			 <class name="stc.esport.testcases.crm.UpdateContractManagementTests">
+				<methods>
+					<include name="testUpdateContract" />
+					<include name="testApproveUpdatedContract" />
+					<include name="testRejectUpdatedContract" />
+					<include name="testRequireActionUpdatedContract" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+	
+	<!--  <test name="CRM  Contracts Tests">
+		<classes>
+		 <class name="stc.esport.testcases.ContractManagementTests">
+				<methods>
+					<include name="testContractRequestApprove" />
+			        <include name="testContractRequestReject" />
+					<include name="testContractRequestRequireAnAction" />
+
+				</methods>
+			</class>
+
+		</classes>
+	</test> -->
+
+	
+
+</suite>
